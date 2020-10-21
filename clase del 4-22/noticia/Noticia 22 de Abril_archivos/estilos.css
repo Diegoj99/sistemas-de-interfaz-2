@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin: 30px;
+}
+    
+
+h1 {
+    color:#520707;
+    font-size: 38px;
+    text-transform: uppercase;
+    border-bottom: #831111 solid 2px;
+}
+
+p {
+    color: #333333;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+blockquote {
+    color: #333333;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 15px #831111 solid;
+    padding-left: 5px;
+}
+
+
+.bajada {
+    color: #831111;
+    font-size: 18px;
+}
+
+.foto_principal {
+    width: 100%;
+}
+
+#envoltorio {
+    background-color: rgba(87, 77, 77, 0.45);
+    padding: 30px;
+    width: 65%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-radius: 5px;
+}

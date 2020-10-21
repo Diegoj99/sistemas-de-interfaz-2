@@ -1,0 +1,127 @@
+.banner {
+    width: 100%;
+}
+.LOGO {
+    width: 10%;
+}
+body {
+    background-color: rgb(201, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+ .main {
+    color: #333333;
+    font-size: 14px;
+    font-family: Helvetica;
+ }   
+
+ article {
+     background-color: rgb(255, 255, 255);
+     width: 60%;
+     float: left;
+     border-radius: 10px;
+     padding: 5%;
+ }
+
+ aside {
+    background-color: rgb(186, 187, 253);
+    width: 25%;
+    float: right;
+    border-radius: 15px;
+    padding: 1%;
+    font-size: 19px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+aside :hover {
+    background-color: rgb(191, 137, 212);
+    cursor: pointer;
+    transition:background-color 1s ;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 1%;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.comida-mexicana {
+    width: 90%;
+}
+
+
+ .foto_principal {
+    width: 100%;
+}
+
+.foto_secundaria {
+    width: 60%;
+}
+h1 {
+    color:#171529;
+    font-size: 38px;
+    text-transform: uppercase;
+    border-bottom: #1b152c solid 2px;
+}
+h2 {
+    color:#171529;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: #1b152c solid 2px;
+}
+
+blockquote {
+    color: #3b3939;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-left: 15px #331183 solid;
+    padding-left: 5px;
+}
+
+p {
+    color: #333333;
+    font-size: 14px;
+    font-family: Helvetica;
+    
+}
+#envoltorio {
+    text-decoration: none;
+    padding: 15px;
+    width: 65%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+#botonesarriba {
+        background-color: #2d2483;
+        text-align: center;
+        padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    
+}
+    #botonesarriba ul {
+        list-style: none;
+    }
+    #botonesarriba ul li {
+        display: inline-block;
+    }
+    #botonesarriba ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    #botonesarriba ul li a:hover {
+    background-color: rgb(115, 10, 177);
+    border-radius: 4px;
+    width: 40%;
+    cursor: pointer;
+    transition:background-color 1s ;
+        }

@@ -1,0 +1,104 @@
+
+.francia {
+	background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, blue 66.66%);
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.japon {
+	background-image:radial-gradient(circle, red 33%, white 33%, white);
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.colombia {
+	background-image:linear-gradient(rgb(255, 208, 0) 33%, rgb(65, 4, 231) 33%, rgb(65, 4, 231) 66.66%, rgb(230, 23, 23) 66.66%);
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.chile {
+	background-image:linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%,red 50%);
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+	
+}
+
+.chile img {
+	width:100px;height:100px;
+	background-color: rgb(30, 0, 161);
+	position: absolute;
+	
+}
+
+.espanab {
+	background-image:linear-gradient(red 33%, yellow 33%, yellow 66.66%,red 66.66%);
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+	
+}
+
+.espanab img {
+	width: 21%;
+	margin: 30%;
+	margin-left: 40%;
+	margin-top: 22%;
+}
+
+.costarica {
+	background-image:linear-gradient(blue 16%, white 16%, white 33%, red 33%, red 66%, white 66%, white 82%, blue 82% );
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.islandia {
+	background-color: red;
+	width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.cuboazul1 {
+	width: 80px;height:70px;
+	border-right:10px solid rgb(255, 255, 255);
+	border-bottom: 10px solid rgb(255, 255, 255);
+	background-color: rgb(30, 0, 161);
+	position: absolute;
+	padding-bottom: 11px;
+}
+
+.cuboazul2 {
+	width: 80px;height:70px;
+	border-right:10px solid rgb(255, 255, 255);
+	border-top: 10px solid rgb(255, 255, 255);
+	background-color: rgb(30, 0, 161);
+	position: relative;
+	top: 120px;
+}
+
+.cuboazul3 {
+	width: 160px;height:70px;
+	border-left:10px solid rgb(255, 255, 255);
+	border-top: 10px solid rgb(255, 255, 255);
+	background-color: rgb(30, 0, 161);
+	position: relative;
+	top: 41px;
+	left: 130px;
+}
+
+.cuboazul4 {
+	width: 160px;height:70px;
+	border-left:10px solid rgb(255, 255, 255);
+	border-bottom: 10px solid rgb(255, 255, 255);
+	background-color: rgb(30, 0, 161);
+	position: relative;
+	padding-top: 11px;
+	bottom: 160px;
+	left: 130px;
+}

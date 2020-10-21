@@ -1,0 +1,13 @@
+.redes {
+    float: right;
+    position: relative;
+}
+
+.banner {
+    float: center;
+}
+
+.logo {
+    float: center;
+    position: relative;
+}
