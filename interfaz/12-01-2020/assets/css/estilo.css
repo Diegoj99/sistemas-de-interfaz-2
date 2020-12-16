@@ -1,0 +1,52 @@
+.redes {
+    float: right;
+    position: relative;
+}
+
+.banner {
+    float: center;
+    width: 1300px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 10px auto 10px auto;
+}
+
+.rrss {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.material {
+    width: 350px;
+}
+
+#materialC {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    border: 1px green solid;
+    text-align: center;
+}
+
+header {
+    border: 1px red solid;
+    width: 70%;
+    margin: 30px auto 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    border: 1px red solid;
+    width: 70%;
+    margin: 30px auto 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+.contacto {
+    width: 1300px;
+}

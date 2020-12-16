@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/template1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<meta name="description" content="AI Animation Studios - AI animation studios is a cartoon animation studio based on Mexico City, Mexico">
+	<meta name="keywords" content="animacion, animacion mexico, animation, villainous, villanos, vilanesco, animacion 2d, animacion tradicional, animacion 3d, estudio de animacion, servicios de animacion, el galletas, koalaventuras, comic, comics, 3D, 2D, el colgado, hangy, aips, 5.0.5., Dr. Flug, BlackHat, Demencia, caricatura, Cartoon, Cartoon Network">
+	
+	<link href="content/favico.png" rel="icon" type="image/png"/>
+	<link href="content/bulma-0.7.1/css/bulma.css" rel="stylesheet"/>
+	<link href="content/css5228.css?v=3RTCLOC2HnWo76JM1DZgqffTzJ4bxgjoMQ2kY6a2zOM1" rel="stylesheet"/>
+	<script src="Scripts/jquery-3.2.1.min.js"></script>
+	<script src="Scripts/jsrender.min.js"></script>
+	<script src="Scripts/ej/ej.web.all.min.js"></script>
+	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" rel="stylesheet"/>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137801893-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-137801893-1');
+	</script>
+<!-- InstanceBeginEditable name="doctitle" -->
+	<title>AI Animation Studios</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- Editable head -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<style>
+    .has-background-black{
+        margin:5px;
+    }
+    @media screen and (max-width: 1087px){
+        #logoid {
+        height: 77px !important;
+    }
+        #navbar-brandresponsive {
+            height: 10px !important;
+        }
+    }
+</style>
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand" id="navbar-brandresponsive">
+			<a class="navbar-item" href="index.html" id="logoid">
+				<img style="max-height:138px" src="content/imagenes/AI-LOGO.png" />
+			</a>
+		</div>
+		<div id="navbarExampleTransparentExample" class="navbar-menu">
+		<div class="navbar-start"></div>
+		<div class="navbar-end">
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a class="navbar-item navbar-link" href="Proyectos.html">
+					PROYECTOS
+				</a>
+				<div class="navbar-dropdown">
+					<a class="navbar-item" href="Proyecto-BH.html">
+						VILLANOS
+					</a>
+					<a class="navbar-item" href="Proyecto-AXO.html">
+						AXO
+					</a>
+				</div>
+			</div>
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a class="navbar-link">
+					AC&#201;RCATE
+				</a>
+				<div class="navbar-dropdown">
+					<a class="navbar-item" href="Contactanos.html">
+						CONTÁCTANOS
+					</a>
+					<a class="navbar-item" href="PreguntasYrespuestas.html">
+						FAQS
+					</a>
+				</div>
+			</div>
+			<div class="navbar-item" style="width:190px;"></div>
+		</div>
+	</div>
+</nav>
+
+<div class="contenedor-logos">
+	<a href="https://www.facebook.com/AIanimationstudios/" target="_blank">
+		<img src="content/imagenes/facebook.png" />
+	</a>
+	<a href="https://www.instagram.com/aianimationstudios/?hl=es" target="_blank">
+		<img src="content/imagenes/Instagram.png" />
+	</a>
+	<a href="https://www.youtube.com/channel/UCNbnTY2_jEsJVOtp7SOSX6A/featured?view_as=subscriber" target="_blank">
+		<img src="content/imagenes/Youtube.png" />
+	</a>
+	<a href="https://twitter.com/AIanimacion"  target="_blank">
+		<img src="content/imagenes/Twitter.png" />
+	</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;z-index:50000;" class="is-hidden-desktop">
+	<a class="navbar-item button is-success  has-background-black" href="Proyectos.html">
+		PROYECTOS
+	</a>
+	<a class="navbar-item  button is-success  has-background-black" href="Contactanos.html">
+		CONTÁCTANOS
+	</a>
+	<a class="navbar-item button is-success  has-background-black" href="PreguntasYrespuestas.html">
+		FAQS
+	</a>
+	<br />
+	<br />
+	<br />
+	<br />
+</div>
+					
+<!--BODY -->
+<!-- InstanceBeginEditable name="Bodycontent" -->
+<div class="is-fullhd">
+           
+
+<script>
+
+    function abrirmodal(id) {
+        $("#" + id).show();
+    }
+    function scrollear(clase) {
+      //  var section = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $("."+clase).offset().top-60 
+        });
+    }
+    function hideModals() {
+        $(".modal").hide();
+    }
+    var altura = 0;
+    var seccionin;
+    var alturascroll = 0;
+    var numSecciones = '4';
+    function checkSCroll() {
+        alturascroll = $(window).scrollTop();
+     
+        $(".titulomin").hide();
+        $(".imagenmin").css('opacity', '0.4');
+        altura = 0;
+        seccionin = 1;
+        var miniatura_seleccionada = 0;
+        var titule = "";
+        for (var i = 1; i < numSecciones; i++) {
+            altura += $("#hoja" + i).height();
+            altura -= 40;
+            if (alturascroll > altura) {
+                seccionin = i + 1;
+                //seccionin = $("#hoja" + i).data("miniatura");
+                
+            }
+            miniatura_seleccionada = $("#hoja" + seccionin).data("miniatura");
+            titule = $("#hoja" + seccionin).data("textotitulo");
+        }
+
+        $("#titulomin" + miniatura_seleccionada).html(titule);
+        $("#titulomin" + miniatura_seleccionada).show();
+        $("#imagenmin" + miniatura_seleccionada).css('opacity', '1');
+
+        console.log(titule);
+        console.log(miniatura_seleccionada);
+    }
+    $(window).scroll(function () {
+        checkSCroll();
+
+    });
+    $(window).ready(function () {
+        checkSCroll();
+    });
+
+</script>
+<style>
+    .TITULONAME {
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #f5cd00;
+        position: relative;
+        top: -65px;
+        left: 15px;
+        font-family: titulos;
+    }
+
+    .SUBTITULO {
+        font-weight: bolder;
+        font-size: larger;
+        position: relative;
+        top: -76px;
+        right: -19px;
+    }
+    .hover:hover {
+        cursor: pointer;
+    }
+    .is-one-third figure img:hover {
+        filter: opacity(70%);
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    var slideIndex = 1;
+    function slideup() {
+        slideIndex += 1;
+        showSlides();
+    }
+    function slidedown() {
+        slideIndex -= 1;
+        showSlides();
+    }
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("ss-container");
+
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        if (slideIndex < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            $("#ss" + i).css("dysplay", "none")
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+    setInterval(slideup, 10000);
+</script>
+<style>
+    /* Fading animation */
+    a {
+        color: black;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 2s;
+        animation-name: fade;
+        animation-duration: 2s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+
+    .slider-text {
+        cursor: pointer;
+        background-color: white;
+        position: absolute;
+        top: 80%;
+        right: 0px;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: black;
+        transition: 0.6s ease;
+        border-radius: 6px 3px 3px 6px;
+    }
+    .column a{
+        color:blue !important;
+    }
+</style>
+<!-- Place somewhere in the <body> of your page -->
+
+
+
+
+<div id="hoja1" class="9a907169-1ccb-4784-a00b-5e857b59b5c4" data-miniatura="1" data-textotitulo="Intro">
+    
+
+
+
+
+        <div style="width:100%">
+            <img style="width:100%" src="content/imagenes_de_usuarios/noticias/Villanos_1300_400_preview.png" />
+        </div>
+        <div style="height: 21px;">
+            <h2 class="TITULONAME">
+                VILLANOS
+            </h2>
+            <h2 class="SUBTITULO">
+                Por Alan Ituriel
+            </h2>
+        </div>
+        <div class="container columns" style="font-size: 1.5rem;padding-left:7%; min-height:350px;">
+            <div class="column">Sigue las desaventuras del Dr. Flug, Demencia y 5.0.5., dos malvados villanos y una adorable criatura que trabajan para Lord Black Hat (El villano más malvado que puede existir) en Black Hat Organization, una despiadada y malvada organización cuya misión es ayudar a los villanos para vencer a sus problemáticos héroes. <br> <a href="https://spa.cartoonnetworkla.com/show/villanos" target="_blank">Sólo por Cartoon Network</a></div>
+            <div class="column"></div>
+        </div>
+    <br><br><br><br>
+</div>
+<div id="hoja2" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7a" data-miniatura="2" data-textotitulo="Videos">
+    
+
+
+
+
+        <div style="width:100%">
+            <img style="width:100%" src="content/imagenes_de_usuarios/noticias/fase1.png" />
+        </div>
+        <div style="height: 21px;">
+            <h2 class="TITULONAME">
+                 
+            </h2>
+            <h2 class="SUBTITULO">
+                 
+            </h2>
+        </div>
+        <div style="font-size:1.5rem;">
+             
+        </div>
+        <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7a" align="center">
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av1" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;"> <iframe width="850" height="474" src="https://www.youtube.com/embed/Uo8NwDptljM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av2" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> <iframe width="850" height="474" src="https://www.youtube.com/embed/SPb2CTCa0Vs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av3" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> <iframe width="850" height="474" src="https://www.youtube.com/embed/Jfca9Ev6yfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av4" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av5" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av6" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av7" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av8" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av9" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av10" class="a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+        </div>
+        <br />
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                <div class="itemvideo"><figure class="image is-16by9" onclick='$(".a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av").hide();$("#a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av1").show();'><img src="content/imagenes_de_usuarios/noticias/thmbnail11.png" /></figure></div>
+                            <div class="itemvideo"><figure class="image is-16by9" onclick='$(".a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av").hide();$("#a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av2").show();'><img src="content/imagenes_de_usuarios/noticias/fase2_1.png" /></figure></div>
+                            <div class="itemvideo"><figure class="image is-16by9" onclick='$(".a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av").hide();$("#a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7av3").show();'><img src="content/imagenes_de_usuarios/noticias/fase2_2.png" /></figure></div>
+        </div>
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                                </div>
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                                </div>
+    <br><br><br><br>
+</div>
+<div id="hoja3" class="f75e8bda-511d-4c37-92f7-96237e9da766" data-miniatura="3" data-textotitulo="Orientaci&#243;n">
+    
+
+
+
+
+        <div style="width:100%">
+            <img style="width:100%" src="content/imagenes_de_usuarios/noticias/faseo.png" />
+        </div>
+        <div style="height: 21px;">
+            <h2 class="TITULONAME">
+                 
+            </h2>
+            <h2 class="SUBTITULO">
+                 
+            </h2>
+        </div>
+        <div style="font-size:1.5rem;">
+             
+        </div>
+        <div id="f75e8bda-511d-4c37-92f7-96237e9da766" align="center">
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v1" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;"> <iframe width="850" height="474" src="https://www.youtube.com/embed/ZgyBHySGMNw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v2" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> <iframe width="850" height="474" src="https://www.youtube.com/embed/XbcrVkEkd3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v3" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v4" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v5" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v6" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v7" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v8" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v9" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+            <div id="f75e8bda-511d-4c37-92f7-96237e9da766v10" class="f75e8bda-511d-4c37-92f7-96237e9da766v" style="border:5px solid white; width: fit-content;line-height: 0;display:none;"> </div>
+        </div>
+        <br />
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                <div class="itemvideo"><figure class="image is-16by9" onclick='$(".f75e8bda-511d-4c37-92f7-96237e9da766v").hide();$("#f75e8bda-511d-4c37-92f7-96237e9da766v1").show();'><img src="content/imagenes_de_usuarios/noticias/4.PPG_preview.png" /></figure></div>
+                            <div class="itemvideo"><figure class="image is-16by9" onclick='$(".f75e8bda-511d-4c37-92f7-96237e9da766v").hide();$("#f75e8bda-511d-4c37-92f7-96237e9da766v2").show();'><img src="content/imagenes_de_usuarios/noticias/8.Steven_preview.png" /></figure></div>
+                    </div>
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                                </div>
+        <div class="container " style="font-size: 2.3rem; max-width:100%;width:100%;display: flex;justify-content: center;" align="center">
+                                </div>
+    <br><br><br><br>
+</div>
+<div id="hoja4" class="dd98ff77-1838-419a-ac19-d4ae2757770f" data-miniatura="4" data-textotitulo="Arte">
+    
+        <div style="height: 21px;">
+            <h2 class="TITULONAME">
+                ARTE
+            </h2>
+            <h2 class="SUBTITULO">
+                 
+            </h2>
+        </div>
+        <div style="font-size:1.5rem;">
+             
+        </div>
+        <div class="container ss is-fullhd" style="min-height:350px;">
+                <div class="ss-container fade" style="" id="ss1">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/1.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss2">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/2.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss3">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/3.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss4">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/4.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss5">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/5.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss6">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/6.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss7">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/8.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss8">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/9.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss9">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/10.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss10">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/11.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss11">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/12.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss12">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/13.png" />
+                    </figure>
+                </div>                 <div class="ss-container fade" style="display:none;" id="ss13">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/14.png" />
+                    </figure>
+                </div>
+                <div class="ss-container fade" style="display:none;" id="ss14">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/15.png" />
+                    </figure>
+                </div>                 <div class="ss-container fade" style="display:none;" id="ss15">
+                    <figure class="image">
+                        <img src="content/imagenes_de_usuarios/noticias/16.png" />
+                    </figure>
+                </div>
+                    <div class="ss-container fade" style="display:none;" id="ss16">
+                        <figure class="image">
+                            <img src="content/imagenes_de_usuarios/noticias/17.png" />
+                        </figure>
+                    </div>
+
+            <a class="prev" onclick="slidedown()"><i class="fas fa-angle-left"></i></a>
+            <a class="next" style="z-index:10000" onclick="slideup()"><i class="fas fa-angle-right"></i></a>
+        </div>
+    <br><br><br><br>
+</div>
+<style>
+    .menulateral {
+        position: fixed;
+        bottom: 10%;
+        right: 0px;
+    }
+
+    .menulateral-imagen {
+        width: 50px;
+    }
+    .itemvideo {
+        width: 20%;
+        padding: 1.5%;
+        
+    }
+    .itemvideo figure:hover{
+        cursor:pointer;
+    }
+</style>
+
+<div class="menulateral">
+    <table>
+                    <tr>
+                        <td style="vertical-align:middle;">
+                            <div id="titulomin1" class="titulomin" style="font-family:titulos; ">
+                                Intro
+                            </div>
+                        </td>
+                        <td class="menulateral-imagen">
+                            <div class="hover imagenmin" id="imagenmin1">
+                            <img style="" src="content/imagenes_de_usuarios/noticias/1XYZ9HKQ.png" onclick='scrollear("9a907169-1ccb-4784-a00b-5e857b59b5c4")' /></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align:middle;">
+                            <div id="titulomin2" class="titulomin" style="font-family:titulos; ">
+                                Videos
+                            </div>
+                        </td>
+                        <td class="menulateral-imagen">
+                            <div class="hover imagenmin" id="imagenmin2">
+                            <img style="" src="content/imagenes_de_usuarios/noticias/-q0khsuA.png" onclick='scrollear("a6c4f6ad-40e6-4ac3-8b6d-48fd6c92ad7a")' /></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align:middle;">
+                            <div id="titulomin3" class="titulomin" style="font-family:titulos; ">
+                                Orientaci&#243;n
+                            </div>
+                        </td>
+                        <td class="menulateral-imagen">
+                            <div class="hover imagenmin" id="imagenmin3">
+                            <img style="" src="content/imagenes_de_usuarios/noticias/QeYSQ92A.png" onclick='scrollear("f75e8bda-511d-4c37-92f7-96237e9da766")' /></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align:middle;">
+                            <div id="titulomin4" class="titulomin" style="font-family:titulos; ">
+                                Arte
+                            </div>
+                        </td>
+                        <td class="menulateral-imagen">
+                            <div class="hover imagenmin" id="imagenmin4">
+                            <img style="" src="content/imagenes_de_usuarios/noticias/FFhezcUA.png" onclick='scrollear("dd98ff77-1838-419a-ac19-d4ae2757770f")' /></div>
+                        </td>
+                    </tr>
+
+
+    </table>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+<!-- InstanceEndEditable --> 
+<!--Fin Body-->
+<footer>
+	<div class="container body-content">
+		<hr/>
+		<p style="color: gray;">
+			&copy; 2019 - AI Animation Studios - Webmaster:
+			<a href="mailto:atomo.ars@gmail.com">
+				<i class="fas fa-broadcast-tower"></i> Atomo.ars
+			</a>
+		</p>
+	</div>
+</footer>
+<script type="text/javascript">$(function($){});</script>
+	
+</body>
+<!-- InstanceEnd --></html>

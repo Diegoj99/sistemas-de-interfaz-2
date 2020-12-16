@@ -8,6 +8,28 @@
 }
 
 .logo {
-    float: center;
+    width: 150px;
+    height: auto;
+    margin: 10px auto 10px auto;
+}
+
+.rrss {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#materialC {
+    width: 70%;
+    margin: 0px auto 0px auto;
+    border: 1px green solid;
+}
+
+header {
+    border: 1px red solid;
+    width: 70%;
+    margin: 30px auto 10px auto;
+    text-align: center;
     position: relative;
+    background-color: salmon;
 }
