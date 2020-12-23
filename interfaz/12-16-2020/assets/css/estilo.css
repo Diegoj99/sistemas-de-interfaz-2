@@ -32,6 +32,10 @@ cursor: pointer;
 transition:1s ;
     }
 
+.columna__01 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(200, 207, 241);
+}
 .columna__02 {
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
