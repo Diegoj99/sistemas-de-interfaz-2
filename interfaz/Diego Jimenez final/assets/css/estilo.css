@@ -1,0 +1,139 @@
+
+.logo1 {
+    width: 40%;
+    position: relative;
+}
+
+#botonesarriba {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+#botonesarriba ul {
+    list-style: none;
+}
+
+#botonesarriba ul li {
+    display: inline-block;
+}
+
+#botonesarriba ul li a {
+    color: rgb(68, 24, 170);
+    text-decoration: none;
+    display: block;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#botonesarriba ul li a:hover {
+    background-color: rgb(148, 193, 219);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.container-fluid {
+    padding-bottom: 0px !important;
+}
+
+.columna__01 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.columna__02 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.columna__03 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(148, 193, 219);
+    border-radius: 10px 10px;
+}
+.columna__04 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(148, 193, 219);
+    color:rgb(7, 14, 46);
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.compartir {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.contenedor {
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+.logoR {
+    width: 100%;
+    float: center;
+    background-color: rgb(148, 193, 219);
+    border-radius: 10px;
+}
+
+.FotoPrincipal {
+    width: 100%;
+}
+
+.FotoPrincipall {
+    width: 100%;
+    ;
+}
+
+.FotoPrincipal2 {
+    width: 100%;
+    border-radius: 10px;
+    float: top;
+}
+
+.FotoPrincipal4 {
+    width: 50%;
+    ;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Hipertexto {
+    display: list-item;
+    width: 100%;
+    background-color: #e9e6e6;
+    position: relative;
+    box-shadow: 5px -5px 5px -4px #070707;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.Hipertexto1 {
+    position: relative;
+    color: rgb(19, 41, 170);
+    text-align: right;
+    font-size: 20px;
+    font-display: swap;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 15px 15px 15px;
+}
+
+.container-fluid {
+    padding-bottom: 60px;
+}
