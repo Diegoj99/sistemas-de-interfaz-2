@@ -50,7 +50,9 @@ transition:1s ;
 .FotoPrincipal {
     width: 100%; 
 }
-
+.FotoPrincipall {
+    width: 50%; 
+}
 h1 {
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;

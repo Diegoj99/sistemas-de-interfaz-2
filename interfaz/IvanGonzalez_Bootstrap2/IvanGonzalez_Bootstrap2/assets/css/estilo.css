@@ -13,6 +13,9 @@
 .FotoPrincipal {
     width: 100%; 
 }
+.FotoPrincipal1 {
+    width: 50%; 
+}
 
 .Hipertexto {
     display: list-item;
